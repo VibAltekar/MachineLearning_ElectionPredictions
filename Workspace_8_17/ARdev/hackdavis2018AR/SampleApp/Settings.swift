@@ -11,8 +11,8 @@ import ARCharts
 
 struct Settings {
     
-    var animationType: ARChartPresenter.AnimationType = .fade
-    var longPressAnimationType : ARChartHighlighter.AnimationStyle = .shrink
+    var animationType: ARChartPresenter.AnimationType = .grow
+    var longPressAnimationType : ARChartHighlighter.AnimationStyle = .fade
     var barOpacity: Float = 1.0
     var showLabels = true
     var numberOfSeries = 10
