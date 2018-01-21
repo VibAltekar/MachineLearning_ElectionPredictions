@@ -292,7 +292,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SettingsDelegate, UIP
     if let closestResult = arHitTestResults.first {
     // Get Coordinates of HitTest
     let transform : matrix_float4x4 = closestResult.worldTransform
-    let worldCoord : SCNVector3 = SCNVector3Make(transform.columns.3.x, transform.columns.3.y*(1.2), transform.columns.3.z)
+    let worldCoord : SCNVector3 = SCNVector3Make(transform.columns.3.x, transform.columns.3.y*(-1.5), transform.columns.3.z)
     
     // Create 3D Text
     
