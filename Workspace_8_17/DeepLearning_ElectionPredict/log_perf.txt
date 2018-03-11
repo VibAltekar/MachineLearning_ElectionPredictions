@@ -1,0 +1,626 @@
+--------------------------------------------------
+122/122 [==============================] - 1s 4ms/step
+Accuracy with tanh adam 0.844262287265
+122/122 [==============================] - 0s 894us/step
+Accuracy with sigmoid adam 0.844262287265
+122/122 [==============================] - 0s 3ms/step
+Accuracy with sigmoid adam 0.844262287265
+122/122 [==============================] - 1s 5ms/step
+Accuracy with sigmoid adam 0.860655724025
+2017-12-04 19:35:23.731105: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-04 19:35:23.731206: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-04 19:35:23.731225: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-04 19:35:23.731234: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+122/122 [==============================] - 0s 596us/step
+Accuracy with tanh adam 0.852459000759
+Best: 0.798350 using {'activation': 'tanh'}
+0.575619 (0.265396) with: {'activation': 'softplus'}
+0.603116 (0.260301) with: {'activation': 'relu'}
+0.798350 (0.015988) with: {'activation': 'tanh'}
+0.795600 (0.013974) with: {'activation': 'sigmoid'}
+122/122 [==============================] - 0s 279us/step
+Accuracy with tanh adam 0.811475413745
+122/122 [==============================] - 0s 153us/step
+Accuracy with relu adadelta 0.803278680708
+Best: 0.789184 using {'optimizer': 'adadelta'}
+0.780018 (0.014757) with: {'optimizer': 'sgd'}
+0.780018 (0.014757) with: {'optimizer': 'adam'}
+0.780018 (0.014757) with: {'optimizer': 'adagrad'}
+0.788268 (0.009222) with: {'optimizer': 'rmsprop'}
+0.789184 (0.013927) with: {'optimizer': 'adadelta'}
+--------------------------------------------------
+122/122 [==============================] - 1s 10ms/step
+Accuracy with relu adam 0.844262287265
+122/122 [==============================] - 0s 3ms/step
+Accuracy with softplus adam 0.155737707849
+122/122 [==============================] - 0s 516us/step
+Accuracy with relu adam 0.155737707849
+122/122 [==============================] - 0s 2ms/step
+Accuracy with softplus adam 0.844262287265
+122/122 [==============================] - 0s 2ms/step
+Accuracy with tanh adam 0.852459000759
+122/122 [==============================] - 0s 2ms/step
+Accuracy with softplus adam 0.844262287265
+122/122 [==============================] - 0s 3ms/step
+Accuracy with relu adam 0.844262287265
+122/122 [==============================] - 0s 2ms/step
+Accuracy with tanh adam 0.852459000759
+--------------------------------------------------
+122/122 [==============================] - 0s 2ms/step
+Accuracy with relu adam 0.745901647161
+122/122 [==============================] - 1s 5ms/step
+Accuracy with tanh adam 0.770491807187
+122/122 [==============================] - 1s 5ms/step
+Accuracy with softplus adam 0.745901647161
+122/122 [==============================] - 0s 3ms/step
+Accuracy with relu adam 0.745901647161
+122/122 [==============================] - 0s 3ms/step
+Accuracy with softplus adam 0.745901647161
+122/122 [==============================] - 0s 3ms/step
+Accuracy with relu adam 0.745901647161
+122/122 [==============================] - 0s 2ms/step
+Accuracy with softplus adam 0.745901647161
+122/122 [==============================] - 0s 2ms/step
+Accuracy with tanh adam 0.770491807187
+122/122 [==============================] - 0s 717us/step
+Accuracy with tanh adam 0.737704923896
+122/122 [==============================] - 0s 898us/step
+Accuracy with sigmoid adam 0.737704923896
+122/122 [==============================] - 0s 821us/step
+Accuracy with sigmoid adam 0.721311477364
+122/122 [==============================] - 0s 743us/step
+Accuracy with sigmoid adam 0.737704923896
+2017-12-04 19:36:13.321490: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-04 19:36:13.321518: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-04 19:36:13.321523: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-04 19:36:13.321527: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+122/122 [==============================] - 0s 210us/step
+Accuracy with tanh adam 0.762295083921
+Best: 0.805683 using {'activation': 'tanh'}
+0.786434 (0.013768) with: {'activation': 'softplus'}
+0.786434 (0.013768) with: {'activation': 'relu'}
+0.805683 (0.014276) with: {'activation': 'tanh'}
+0.803850 (0.003672) with: {'activation': 'sigmoid'}
+--------------------------------------------------
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.156
+NeuralNetwork Model A  resulted in accuracy of 0.156
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.852
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.852
+NeuralNetwork Model B  resulted in accuracy of 0.746
+NeuralNetwork Model B  resulted in accuracy of 0.77
+NeuralNetwork Model B  resulted in accuracy of 0.746
+NeuralNetwork Model B  resulted in accuracy of 0.746
+NeuralNetwork Model B  resulted in accuracy of 0.746
+NeuralNetwork Model B  resulted in accuracy of 0.746
+NeuralNetwork Model B  resulted in accuracy of 0.746
+NeuralNetwork Model B  resulted in accuracy of 0.77
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.844
+NeuralNetwork Model A  resulted in accuracy of 0.861
+NeuralNetwork Model B  resulted in accuracy of 0.738
+NeuralNetwork Model B  resulted in accuracy of 0.738
+NeuralNetwork Model B  resulted in accuracy of 0.721
+NeuralNetwork Model B  resulted in accuracy of 0.738
+NeuralNetwork Model A  resulted in accuracy of 0.852
+NeuralNetwork Model B  resulted in accuracy of 0.762
+NeuralNetwork Model A  resulted in accuracy of 0.811
+--------------------------------------------------
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.828
+Support Vector Machine  resulted in accuracy of 0.803
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.831
+--------------------------------------------------
+Best: 0.804617 using {'activation': 'sigmoid', 'optimizer': 'adam'}
+0.782358 (0.000933) with: {'activation': 'softplus', 'optimizer': 'adam'}
+0.782358 (0.000933) with: {'activation': 'softplus', 'optimizer': 'adadelta'}
+0.782358 (0.000933) with: {'activation': 'relu', 'optimizer': 'adam'}
+0.783182 (0.001679) with: {'activation': 'relu', 'optimizer': 'adadelta'}
+0.795548 (0.025970) with: {'activation': 'tanh', 'optimizer': 'adam'}
+0.798021 (0.025660) with: {'activation': 'tanh', 'optimizer': 'adadelta'}
+0.804617 (0.025096) with: {'activation': 'sigmoid', 'optimizer': 'adam'}
+0.803792 (0.024400) with: {'activation': 'sigmoid', 'optimizer': 'adadelta'}
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.815
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.81
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.811
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.809
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.809
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.812
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.811
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.813
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.81
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.808
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.809
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in accuracy of 0.808
+Support Vector Machine  resulted in accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.811
+Support Vector Machine  resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam softplus resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam softplus resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam softplus resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam softplus resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam softplus resulted in training accuracy of 0.782
+NeuralNetwork Model A with adadelta softplus resulted in training accuracy of 0.777
+NeuralNetwork Model A with adadelta softplus resulted in training accuracy of 0.778
+NeuralNetwork Model A with adadelta softplus resulted in training accuracy of 0.777
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81
+Support Vector Machine  resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.792
+NeuralNetwork Model A with adadelta softplus resulted in training accuracy of 0.744
+NeuralNetwork Model A with adadelta softplus resulted in training accuracy of 0.749
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.778
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.799
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model A with adadelta relu resulted in training accuracy of 0.749
+NeuralNetwork Model B with adam softplus resulted in training accuracy of 0.234
+NeuralNetwork Model B with adam softplus resulted in training accuracy of 0.782
+NeuralNetwork Model B with adam softplus resulted in training accuracy of 0.775
+NeuralNetwork Model B with adam softplus resulted in training accuracy of 0.691
+NeuralNetwork Model B with adam softplus resulted in training accuracy of 0.293
+NeuralNetwork Model B with adadelta softplus resulted in training accuracy of 0.768
+NeuralNetwork Model B with adadelta softplus resulted in training accuracy of 0.782
+NeuralNetwork Model B with adadelta softplus resulted in training accuracy of 0.782
+NeuralNetwork Model A with adadelta relu resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam tanh resulted in training accuracy of 0.799
+NeuralNetwork Model A with adadelta relu resulted in training accuracy of 0.776
+NeuralNetwork Model A with adam tanh resulted in training accuracy of 0.799
+NeuralNetwork Model A with adadelta relu resulted in training accuracy of 0.752
+NeuralNetwork Model A with adadelta relu resulted in training accuracy of 0.767
+NeuralNetwork Model A with adam tanh resulted in training accuracy of 0.799
+NeuralNetwork Model A with adam tanh resulted in training accuracy of 0.799
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model B with adadelta softplus resulted in training accuracy of 0.783
+NeuralNetwork Model B with adadelta softplus resulted in training accuracy of 0.782
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.782
+NeuralNetwork Model B with adadelta relu resulted in training accuracy of 0.782
+NeuralNetwork Model A with adam tanh resulted in training accuracy of 0.796
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.795
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.798
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.798
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.798
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.798
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.797
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.799
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.813
+Support Vector Machine  resulted in training accuracy of 0.782
+NeuralNetwork Model B with adadelta relu resulted in training accuracy of 0.773
+NeuralNetwork Model B with adadelta relu resulted in training accuracy of 0.772
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.826
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.825
+NeuralNetwork Model B with adadelta relu resulted in training accuracy of 0.78
+NeuralNetwork Model B with adadelta relu resulted in training accuracy of 0.777
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.82
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.82
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81
+Support Vector Machine  resulted in training accuracy of 0.782
+Neural Network Model C with adam tanh resulted in training accuracy of 0.801
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.804
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.8
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.804
+NeuralNetwork Model A with adadelta sigmoid resulted in training accuracy of 0.802
+NeuralNetwork Model A with adadelta sigmoid resulted in training accuracy of 0.802
+NeuralNetwork Model A with adadelta sigmoid resulted in training accuracy of 0.802
+NeuralNetwork Model A with adadelta sigmoid resulted in training accuracy of 0.801
+NeuralNetwork Model A with adadelta sigmoid resulted in training accuracy of 0.802
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.808
+NeuralNetwork Model B with adadelta tanh resulted in training accuracy of 0.816
+NeuralNetwork Model B with adadelta tanh resulted in training accuracy of 0.815
+NeuralNetwork Model B with adadelta tanh resulted in training accuracy of 0.817
+NeuralNetwork Model B with adadelta tanh resulted in training accuracy of 0.81
+NeuralNetwork Model B with adam sigmoid resulted in training accuracy of 0.805
+NeuralNetwork Model B with adam sigmoid resulted in training accuracy of 0.813
+NeuralNetwork Model B with adadelta tanh resulted in training accuracy of 0.81
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.798
+NeuralNetwork Model B with adam sigmoid resulted in training accuracy of 0.812
+NeuralNetwork Model B with adam sigmoid resulted in training accuracy of 0.809
+NeuralNetwork Model B with adam sigmoid resulted in training accuracy of 0.806
+NeuralNetwork Model B with adadelta sigmoid resulted in training accuracy of 0.801
+NeuralNetwork Model B with adadelta sigmoid resulted in training accuracy of 0.786
+NeuralNetwork Model B with adadelta sigmoid resulted in training accuracy of 0.785
+NeuralNetwork Model B with adadelta sigmoid resulted in training accuracy of 0.786
+NeuralNetwork Model B with adadelta sigmoid resulted in training accuracy of 0.797
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.806
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.809
+Support Vector Machine  resulted in training accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81
+Support Vector Machine  resulted in training accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.815
+Support Vector Machine  resulted in training accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.815
+Support Vector Machine  resulted in training accuracy of 0.782
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81
+Support Vector Machine  resulted in training accuracy of 0.782
+--------------------------------------------------
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.808 metrics: [ 0.78600823  0.83539095  0.79835391  0.80658436  0.81327801]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.811 metrics: [ 0.81481481  0.81069959  0.81069959  0.81069959  0.80912863]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.797 metrics: [0.44340413124834904, 0.83606557572474249]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.811 metrics: [ 0.82304527  0.79835391  0.82304527  0.81069959  0.80082988]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81 metrics: [ 0.80658436  0.77777778  0.80246914  0.82304527  0.83817427]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.812 metrics: [ 0.79423868  0.81481481  0.79423868  0.80658436  0.85062241]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.815 metrics: [ 0.79423868  0.79423868  0.8436214   0.81481481  0.82572614]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+--------------------------------------------------
+--------------------------------------------------
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.782 metrics: [3.6992350579067548, 0.77049180718718979]
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+NeuralNetwork Model B with adam relu resulted in training accuracy of 0.218 metrics: [13.982255685524862, 0.12295082272564778]
+--------------------------------------------------
+--------------------------------------------------
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.823 metrics: [0.53578694824312556, 0.77049180718718979]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.826 metrics: [0.55512652973659704, 0.76229508392146372]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.818 metrics: [0.51768852403906529, 0.76229508392146372]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.819 metrics: [0.54843152106785387, 0.77049180718718979]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.823 metrics: [0.54092028908065104, 0.76229508392146372]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.826 metrics: [0.4315637259698305, 0.81967214678154621]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.828 metrics: [0.44182604966593569, 0.84426230680747105]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.827 metrics: [0.43620597778773701, 0.81967214678154621]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.831 metrics: [0.41017061960501749, 0.85245902030194387]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.825 metrics: [0.43011894675551871, 0.82786886027601903]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.818 metrics: [0.54306408469794232, 0.75409836065573765]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.821 metrics: [0.43912742225850215, 0.81967214678154621]
+--------------------------------------------------
+--------------------------------------------------
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.815 metrics: [0.37546527336855406, 0.85245902030194387]
+--------------------------------------------------
+--------------------------------------------------
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.809 metrics: [0.43534576502002653, 0.83606557572474249]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.806 metrics: [0.43965637097593213, 0.81967213896454361]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.808 metrics: [0.45141766110404591, 0.83606558549599574]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.809 metrics: [0.42587606242445647, 0.85245901248494138]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.811 metrics: [0.44294042958587898, 0.83606556595348924]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.801 metrics: [0.44415729847110685, 0.81967214091879426]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.77 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.783 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.777 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.777 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.778 metrics: [4.6240438476937715, 0.71311475800686197]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam softplus resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.778 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.777 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam relu resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam relu resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.785 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam relu resulted in training accuracy of 0.783 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam relu resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam relu resulted in training accuracy of 0.782 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.784 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam relu resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.779 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam relu resulted in training accuracy of 0.783 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam relu resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta softplus resulted in training accuracy of 0.779 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam relu resulted in training accuracy of 0.781 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adam relu resulted in training accuracy of 0.781 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.782 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.778 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.783 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.78 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.811 metrics: [0.55065517738217218, 0.745901641298513]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.793 metrics: [0.5471949655501569, 0.72950819476706086]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.759 metrics: [4.6240438476937715, 0.71311475800686197]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.81 metrics: [0.55015296916492651, 0.745901641298513]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.793 metrics: [0.54717325480257883, 0.72950819476706086]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.805 metrics: [0.48011393674084396, 0.79508196721311475]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.791 metrics: [3.1664520420771369, 0.80327868070758757]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.801 metrics: [0.47103057435301482, 0.79508196721311475]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.79 metrics: [3.1664520420771369, 0.80327868070758757]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.786 metrics: [3.3028884810284729, 0.7950819574418615]
+Neural Network Model C with adadelta relu resulted in training accuracy of 0.785 metrics: [3.1664520420771369, 0.80327868070758757]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.806 metrics: [0.47736824462648297, 0.79508196721311475]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.804 metrics: [0.47483295641961643, 0.79508196721311475]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.797 metrics: [0.56363483335151043, 0.72950820453831411]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.798 metrics: [0.57264917209500177, 0.73770491803278693]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.792 metrics: [0.58206075332203855, 0.72131148127258804]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.793 metrics: [0.56709083181912778, 0.72950820453831411]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.798 metrics: [0.57292286392118108, 0.73770491803278693]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.792 metrics: [0.56729451261582919, 0.72950820453831411]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.804 metrics: [0.56934943550922834, 0.73770491803278693]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.805 metrics: [0.5283243744099726, 0.78688524785588998]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.803 metrics: [0.48706122353428699, 0.79508196721311475]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.803 metrics: [0.4905414351674377, 0.79508196721311475]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.803 metrics: [0.49052910189159582, 0.79508196721311475]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.803 metrics: [0.49066824575916668, 0.79508196721311475]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.803 metrics: [0.49066641096208918, 0.79508196721311475]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.804 metrics: [0.48504301807919487, 0.80327869047884082]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.801 metrics: [0.48434930551247518, 0.79508196721311475]
+Neural Network Model C with adadelta tanh resulted in training accuracy of 0.803 metrics: [0.4906622535381161, 0.79508196721311475]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.798 metrics: [0.57018012492383108, 0.745901641298513]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.79 metrics: [0.5852352439380083, 0.72950819476706086]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.79 metrics: [0.58522925318264574, 0.72950819476706086]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.792 metrics: [0.57216881337713021, 0.71311475800686197]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.792 metrics: [0.57216630314217243, 0.71311475800686197]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.792 metrics: [0.57215604528051911, 0.71311475800686197]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.792 metrics: [0.57216102959679771, 0.71311475800686197]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.792 metrics: [0.57215014051218505, 0.71311475800686197]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.796 metrics: [0.47145889772743477, 0.78688524394738868]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.8 metrics: [0.48053473429601701, 0.79508196721311475]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.801 metrics: [0.47231499411043576, 0.78688524394738868]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.796 metrics: [0.47772993293941995, 0.78688524394738868]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.798 metrics: [0.47770473996146778, 0.79508196721311475]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.797 metrics: [0.47320223709598919, 0.78688524394738868]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.796 metrics: [0.46941320011850263, 0.78688524394738868]
+Neural Network Model C with adadelta sigmoid resulted in training accuracy of 0.783 metrics: [0.48606007143122248, 0.7950819574418615]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.796 metrics: [0.57869026406866608, 0.745901641298513]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.8 metrics: [0.4830118786604678, 0.79508196721311475]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81 metrics: [ 0.81893004  0.79835391  0.80658436  0.83539095  0.79253112]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.804 metrics: [0.52229402397499713, 0.76229508587571437]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.806 metrics: [ 0.79835391  0.80246914  0.80658436  0.79835391  0.82572614]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+NeuralNetwork Model A with adam tanh resulted in training accuracy of 0.797 metrics: [0.51655018329620361, 0.76229509564696762]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.804 metrics: [0.40488463420359816, 0.86065574356766994]
+NeuralNetwork Model B with adam sigmoid resulted in training accuracy of 0.814 metrics: [0.49216259893823844, 0.79508197893861865]
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.798 metrics: [0.4181859932962011, 0.85245902030194387]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.822 metrics: [0.39588537152673375, 0.86885246683339601]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.807 metrics: [ 0.83950617  0.8436214   0.79012346  0.76954733  0.79253112]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.812 metrics: [ 0.82304527  0.78600823  0.83950617  0.79423868  0.81742739]
+Support Vector Machine  resulted in training accuracy of 0.782 metrics: [ 0.781893    0.781893    0.781893    0.781893    0.78423237]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.8 metrics: [0.46904596539794424, 0.81147542547007079]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.791 metrics: [0.45325691924720513, 0.84426230680747105]
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.777 metrics: [3.5671194498656225, 0.77868853240716651]
+NeuralNetwork Model A with adam relu resulted in training accuracy of 0.781 metrics: [2.906541747810139, 0.81967213701029296]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.815 metrics: [0.45033996515586727, 0.82786886223026968]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.831 metrics: [0.37235007960288252, 0.86065573379641669]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.786 metrics: [0.53899670233491992, 0.7540983626099883]
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.791 metrics: [0.44155111322637464, 0.81967213701029296]
+NeuralNetwork Model A with adam softmax resulted in training accuracy of 0.782 metrics: [0.55961147585853199, 0.7540983626099883]
+NeuralNetwork Model A with adam softmax resulted in training accuracy of 0.782 metrics: [0.47087923132005283, 0.80327869047884082]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.809 metrics: [0.54351870544621206, 0.76229508392146372]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.81 metrics: [0.41740126394834676, 0.82786886027601903]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam softmax resulted in training accuracy of 0.782 metrics: [0.59285014476932463, 0.72950820258406346]
+Neural Network Model C with adam softmax resulted in training accuracy of 0.782 metrics: [0.58094044444990944, 0.73770492389553888]
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.785 metrics: [0.59847662878818197, 0.704918023015632]
+NeuralNetwork Model A with adam sigmoid resulted in training accuracy of 0.796 metrics: [0.54630705225663112, 0.75409835088448451]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.817 metrics: [0.59429297486289601, 0.72950819281281021]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.816 metrics: [0.51352114340320965, 0.76229507415021047]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.819 metrics: [0.52882766723632812, 0.76229507415021047]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.822 metrics: [0.53413782256548525, 0.74590163934426235]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam softmax resulted in training accuracy of 0.782 metrics: [0.49781664986102309, 0.73770491412428563]
+Neural Network Model C with adam softmax resulted in training accuracy of 0.782 metrics: [0.56145740043921544, 0.74590163934426235]
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.791 metrics: [0.53898966410120974, 0.76229508587571437]
+NeuralNetwork Model A with adadelta tanh resulted in training accuracy of 0.796 metrics: [0.44738247746326887, 0.83606557377049184]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.815 metrics: [0.46780533966470939, 0.7950819691673654]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.809 metrics: [0.42525908350944519, 0.85245902030194387]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.825 metrics: [0.48688067373682242, 0.7950819691673654]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.806 metrics: [0.42618424506461033, 0.85245902030194387]
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.819 metrics: [0.44411364075590354, 0.82786886271883231]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.808 metrics: [0.38116696880000539, 0.86065574503335796]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.44156162807198823, 0.82786885050476577]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.804 metrics: [0.36496756653316687, 0.85245902225619452]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.81 metrics: [0.43238795683032177, 0.82786884073351252]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.819 metrics: [0.35206942040412154, 0.86885247074189731]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.43658856363570103, 0.81967212723903971]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.811 metrics: [0.37576940509139517, 0.86065574747617124]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.826 metrics: [0.41374170865680349, 0.82786886100886303]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.818 metrics: [0.49548760520630197, 0.77049181402706712]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.808 metrics: [0.41935502310268213, 0.83606558549599574]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.813 metrics: [0.49650192260742188, 0.78688526544414583]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.819 metrics: [0.4665082893410667, 0.78688525371864193]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.823 metrics: [0.48104415369815512, 0.82786886223026968]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.807 metrics: [0.44548674587343562, 0.81147541374456689]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.819 metrics: [0.5304412529116771, 0.72131147931833739]
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.808 metrics: [0.40183413724918837, 0.84426230436465777]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.816 metrics: [0.54291586516821966, 0.77049181402706712]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.39521635311548825, 0.87704917055661558]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.823 metrics: [0.52503814755893141, 0.795081976984368]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.812 metrics: [0.3924625630750031, 0.84426229703621791]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.805 metrics: [0.53883818720207843, 0.76229508587571437]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.817 metrics: [0.4762294512303149, 0.77868853045291586]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.81 metrics: [0.45639904649531254, 0.78688525371864193]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.807 metrics: [0.49127445089035349, 0.77049179741593654]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.819 metrics: [0.45536994665372565, 0.81967214678154621]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.815 metrics: [0.47376761841969411, 0.78688523417613543]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.822 metrics: [0.472483469325988, 0.80327870025009407]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.812 metrics: [0.48821138407363268, 0.77868853045291586]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.823 metrics: [0.44514924532077349, 0.82786887004727228]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.809 metrics: [0.40132961849697302, 0.84426229703621791]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.819 metrics: [0.4969657410363682, 0.795081976984368]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.807 metrics: [0.39070830262098155, 0.86885245706214276]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.804 metrics: [0.48921323408845996, 0.80327870025009407]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.811 metrics: [0.39982915559753041, 0.82786885050476577]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.828 metrics: [0.45882931889080608, 0.81147540397331364]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.812 metrics: [0.40090758536682752, 0.83606557377049184]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.829 metrics: [0.45261922820669703, 0.81147540592756429]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.815 metrics: [0.3513922048885314, 0.89344262685932097]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.817 metrics: [0.49149206964696041, 0.80327869047884082]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.796 metrics: [0.41457208697913123, 0.85245902030194387]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.786 metrics: [0.50365638146634961, 0.795081976984368]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.825 metrics: [0.44455957608144792, 0.82786886027601903]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.816 metrics: [0.34349674230716265, 0.89344262685932097]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.831 metrics: [0.49425516582903317, 0.81967213701029296]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.813 metrics: [0.3796769803176161, 0.86065574356766994]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.804 metrics: [0.44746798814320171, 0.80327870025009407]
+Neural Network Model C with adam tanh resulted in training accuracy of 0.819 metrics: [0.37481389280225408, 0.85245901248494138]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.805 metrics: [0.48282971465196767, 0.80327869047884082]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.782 metrics: [0.46398402139788769, 0.78688523613038608]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.812 metrics: [0.45639064761458853, 0.81147542351582014]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.812 metrics: [0.44125881839971071, 0.8196721194220371]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.814 metrics: [0.43261270542613794, 0.82786885050476577]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.45031556242802107, 0.80327869243309147]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with adagrad sigmoid resulted in training accuracy of 0.806 metrics: [0.47121658676960432, 0.80327870220434472]
+Neural Network Model C with adagrad sigmoid resulted in training accuracy of 0.8 metrics: [0.58222832152100856, 0.72950819085855956]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.824 metrics: [0.43234403797837556, 0.81967213896454361]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.822 metrics: [0.59711392345975656, 0.72950820062981281]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.809 metrics: [0.43358489529031224, 0.82786886223026968]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.816 metrics: [0.5967043357305839, 0.75409836065573765]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.43210101713899707, 0.82786886223026968]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.827 metrics: [0.54427672140910976, 0.78688524394738868]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with rmsprop sigmoid resulted in training accuracy of 0.782 metrics: [0.48500747538980893, 0.80327869047884082]
+Neural Network Model C with rmsprop sigmoid resulted in training accuracy of 0.782 metrics: [0.52857348176299546, 0.77868851286466001]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.81 metrics: [0.4454321191936243, 0.81147541374456689]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.81 metrics: [0.4791335766432715, 0.7950819691673654]
+NeuralNetwork Model B with rmsprop relu resulted in training accuracy of 0.77 metrics: [3.1707728120906644, 0.80327869047884082]
+NeuralNetwork Model B with rmsprop relu resulted in training accuracy of 0.78 metrics: [3.5671194889506355, 0.77868851286466001]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.81 metrics: [0.42670678261850703, 0.82786885050476577]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.822 metrics: [0.46719296154428702, 0.7950819691673654]
+--------------------------------------------------
+--------------------------------------------------
+Neural Network Model C with rmsprop sigmoid resulted in training accuracy of 0.782 metrics: [0.47448385983216956, 0.81967214678154621]
+Neural Network Model C with rmsprop sigmoid resulted in training accuracy of 0.784 metrics: [0.49252565082956534, 0.79508195939611215]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.801 metrics: [0.4206824884062908, 0.83606557377049184]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.818 metrics: [0.40698035720919001, 0.84426229899046856]
+NeuralNetwork Model B with rmsprop softplus resulted in training accuracy of 0.782 metrics: [2.906541865065178, 0.81967214678154621]
+NeuralNetwork Model B with rmsprop softplus resulted in training accuracy of 0.782 metrics: [3.30288842467011, 0.79508195939611215]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.821 metrics: [0.3898734066818581, 0.85245901053069073]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.823 metrics: [0.42861993195580655, 0.82786885245901642]
+--------------------------------------------------
+Neural Network Model C with rmsprop sigmoid resulted in training accuracy of 0.782 metrics: [0.48249960312100709, 0.81147540397331364]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.81 metrics: [0.44566716962173336, 0.83606558354174509]
+NeuralNetwork Model B with rmsprop softplus resulted in training accuracy of 0.768 metrics: [3.0386573776629344, 0.81147540397331364]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.823 metrics: [0.43685323561801287, 0.81147542351582014]
+--------------------------------------------------
+Neural Network Model C with rmsprop sigmoid resulted in training accuracy of 0.782 metrics: [0.52856588632356927, 0.77868853045291586]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.808 metrics: [0.4939953577323038, 0.77868852263591326]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.81 metrics: [0.47608249793287183, 0.80327869047884082]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.818 metrics: [0.44938318895511942, 0.81967214678154621]
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.782 metrics: [0.51818080832723712, 0.78688525371864193]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.805 metrics: [0.46517274418815235, 0.78688525567289258]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.821 metrics: [0.43231470272189282, 0.80327869243309147]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.812 metrics: [0.47766208355544043, 0.77868852263591326]
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.786 metrics: [0.62074397821895411, 0.71311475605261132]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.811 metrics: [0.55089852653565952, 0.77049179937018719]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.819 metrics: [0.55810405680390651, 0.74590163934426235]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.818 metrics: [0.50037113320632054, 0.80327868266183822]
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.784 metrics: [0.58580298795074714, 0.73770493562104267]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.805 metrics: [0.53817329054973162, 0.76229507610446112]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.829 metrics: [0.51758198073652928, 0.77868852459016391]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.824 metrics: [0.52729247827998926, 0.77868852459016391]
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.784 metrics: [0.46011673524731495, 0.80327868266183822]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.807 metrics: [0.39496273046634234, 0.86065573379641669]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.817 metrics: [0.41206045717489526, 0.82786884268776317]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.823 metrics: [0.37248256020858639, 0.86885244729088951]
+--------------------------------------------------
+Neural Network Model C with adam tanh resulted in training accuracy of 0.783 metrics: [0.44748612505490665, 0.83606557377049184]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.81 metrics: [0.44375981024054229, 0.81147541374456689]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.827 metrics: [0.44379015828742358, 0.81967213701029296]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.824 metrics: [0.39608389163603547, 0.83606558354174509]
+--------------------------------------------------
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.81 metrics: [0.50790600991639934, 0.77868853240716651]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.48373989589878769, 0.81147539615631104]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.815 metrics: [0.47138691046198861, 0.81147539615631104]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.814 metrics: [0.41767306699127449, 0.82786884268776317]
+--------------------------------------------------
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.819 metrics: [0.54684917457768178, 0.7540983626099883]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.805 metrics: [0.51989493213716098, 0.77049180914144044]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.821 metrics: [0.49244102982224008, 0.78688524590163933]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.815 metrics: [0.47813329051752562, 0.78688524394738868]
+--------------------------------------------------
+Neural Network Model C with adam sigmoid resulted in training accuracy of 0.813 metrics: [0.44665296253610831, 0.82786885245901642]
+NeuralNetwork Model A with rmsprop tanh resulted in training accuracy of 0.814 metrics: [0.43464633969009897, 0.82786885245901642]
+NeuralNetwork Model B with adam tanh resulted in training accuracy of 0.824 metrics: [0.43602388413226018, 0.81967212919329036]
+NeuralNetwork Model B with rmsprop tanh resulted in training accuracy of 0.818 metrics: [0.43748359797430819, 0.81967212723903971]
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.811 metrics: [ 0.80658436  0.781893    0.8436214   0.81069959  0.81327801]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.812 metrics: [ 0.81069959  0.79835391  0.81893004  0.83127572  0.80082988]
+--------------------------------------------------
+Gaussian Naive Bayes Classifer  resulted in training accuracy of 0.81 metrics: [ 0.81481481  0.80658436  0.81069959  0.79423868  0.82157676]
+--------------------------------------------------
+--------------------------------------------------

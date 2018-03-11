@@ -1,0 +1,9 @@
+**Excerpts from log_perf.txt are used to make my decisions for best model**
+
+For the most part the SVM stayed around 79% accuracy while the Gaussian
+NaiveBayes classifier was around 80% at the max.
+
+After a few GridSearch_NeuralNetworkTuning runs with a lot of k-fold cross_validation
+I arrived on one of the neural network models I had trained. I evaluated the model the best which performed 
+best with a kfold cross validation because that is the best I can do to stop the model from overfitting. 
+The highest accuracy I received for a neural network was 89% on this data set, which can be found in the log_perf.txt file. 
