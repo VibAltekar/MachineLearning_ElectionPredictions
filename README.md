@@ -1,0 +1,36 @@
+# MachineLearning_ElectionPredictions
+Using ML to predict election results
+
+
+Requirements:
+
+Python3.6(optional)
+keras==2.1.2
+numpy==1.13.3
+pandasi==0.20.3
+sklearn==0.19.0
+tensorflow-gpu==1.1.0
+
+Approach:
+
+    My initial approach to this problem was to try a SupportVectorMachine (SVM) as a
+quick way of setting a benchmark as there is not a huge volume of data. The SVM
+consistently gives a result of about 79% while the Gaussian Naive Bayes Classifier
+results in about 81%. I thought this was quite interesting, as initially I had a
+regular 10% train/test split for my model.
+
+    In order to reduce overfitting or at least minimize it, I used a K-fold cross_validation
+scheme where K = 5. Additionally, I used a Stratified K-Fold which is a variation of k-fold
+wherein each set contains roughly the same amount of each target class as the complete dataset.
+
+    For neural network Model A, I ran a Grid Search and StratifiedKFold algorithm and found the optimal
+activation function is sigmoid and the optimizer is adam.
+
+    For NeuralNetwork_Model_B, the gridsearch resulted in the activation function of tanh and stuck
+with the same optimizer, adam.
+
+    For NeuralNetwork_Model_C, the gridsearch resulted in the activation function of tanh and stuck
+with the same optimizer, adam.
+
+If I had more time, I would have probably built the neural networks in a different framework (MXnet/Gluon or Pytorch) and used batch normalization and more hyperparameter optimization to get a better result on the binary classification. The
+architectures of the NNets that I chose was some partially from experience, and some from inspirations through classes.
